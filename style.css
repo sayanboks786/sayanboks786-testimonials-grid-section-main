@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    
+--Moderateviolet: hsl(263, 55%, 52%);
+--Verydarkgrayishblue: hsl(217, 19%, 35%);
+--Verydarkblackishblue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(0, 0%, 81%);
+--Lightgrayishblue: hsl(210, 46%, 95%);
+}
+
+body{
+    width: 1440px;
+    padding: 2rem;
+    background: var(--Lightgrayishblue);
+  
+}
+.main{
+
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 2rem;
+}
+.item{
+    
+    place-items: center;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.item h1{
+    position: relative;
+    bottom: 20px;
+}
+
+.card1{
+    /* height: 300px; */
+    width: 575px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: var(--Moderateviolet);
+}
+
+.name{
+    position: relative;
+    bottom: 45px;
+    left: 75px;
+}
+
+.card1 h1{
+    position: relative;
+    left: 18px;
+    width: 500px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--White);
+}
+.card1 h3{
+    color: var(--White);
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    font-size: 16px;
+}
+.card1 p{
+    position: relative;
+    left: 16px;
+    line-height: 1.2rem;
+    font-size: 13px;
+    opacity: 70%;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    color: var(--White);
+}
+#name1 span{
+    font-family: 'Barlow Semi Condensed';
+    font-family: 500;
+    font-size: 16px;
+    color: var(--White);
+    opacity: 50%;
+}
+.card2 {
+    position: relative;
+    right: 80px;
+    width: 275px;
+    /* width: 265px; */
+    /* height: 300px; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: var(--Verydarkgrayishblue);
+}
+.card2 h1{
+    width: 240px;
+    position: relative;
+    left: 15px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--White);
+}
+
+
+.card2 h3{   
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--White);
+}
+#name2 span{
+    opacity: 50%;
+    font-family: 'Barlow Semi Condensed';
+    font-family: 500;
+    font-size: 16px;
+    color: var(--White)
+}
+
+
+.card2 p{
+    position: relative;
+    left: 15px;
+    line-height: 1.2rem;
+    font-size: 13px;
+    opacity: 70%;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    color: var(--White);
+}
+
+.card3 {
+    position: relative;
+    right: 105px;
+    width: 280px;
+    background-color: var(--White);
+    grid-column-start: 4;
+    grid-row-end: span 2;
+}
+.card3 h1{
+    position: relative;
+    left: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--Verydarkgrayishblue);
+}
+
+.card3 p{
+    position: relative;
+    left: 15px;
+    line-height: 1.2rem;
+    opacity: 70%;
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    color: var(--Verydarkgrayishblue);
+}
+.card3 h3{
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--Verydarkgrayishblue);
+}
+
+#name3 span{
+    color: var(--Verydarkgrayishblue);
+    opacity: 50%;
+    font-size: 13px;
+}
+
+.card4 {
+    width: 275px;
+    /* height: 300px; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: var(--White);
+}
+
+.card4 h3 {
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--Verydarkgrayishblue);
+}
+#name4 span{
+    opacity: 50%;
+    color: var(--Verydarkgrayishblue);
+}
+.card4 h1{
+    position: relative;
+    left: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--Verydarkgrayishblue);
+}
+.card4 p{
+    position: relative;
+    left: 10px;
+    line-height: 1.2rem;
+    font-weight: 500;
+    opacity: 70%;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--Verydarkgrayishblue);
+    font-size: 13px;
+}
+.card5 {
+    position: relative;
+    right: 35px;
+    /* height: 300px; */
+    width: 575px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: var(--Verydarkblackishblue);
+}
+.card5 h3 {
+    position: relative;
+    left: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--White);
+}
+#name5 span{
+    position: relative;
+    left: 20px;
+    opacity: 50%;
+    color: var(--White);
+}
+.card5 h1{
+    position: relative;
+    left: 20px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--White);
+    width: 520px;
+}
+.card5 p{
+    position: relative;
+    left: 20px;
+    width: 473px;
+    line-height: 1.2rem;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    opacity: 70%;
+    color: var(--White);
+    font-size: 13px;
+}
+
+
+
+.pro_pic img{
+    height: 45px;
+    border-radius: 50%;
+}
+
+#pic1  img{
+    position: relative;
+    left: 15px;
+    border: 2px solid var(--Lightgray);
+    
+}
+
+#pic2  img{
+    position: relative;
+    left: 15px;
+    border: 2px solid var(--Verydarkgrayishblue);
+    
+}
+
+#pic3  img{
+    position: relative;
+    left: 15px;
+    border: 2px solid var(--Lightgrayishblue);
+    
+}
+#pic4 img{
+    position: relative;
+    left: 15px;
+    border: 2px solid var(--Lightgrayishblue);
+    
+}
+#pic5  img{
+    position: relative;
+    left: 25px;
+    border: 2px solid var(--Moderateviolet);
+    
+}
+
